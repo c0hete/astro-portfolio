@@ -22,3 +22,29 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Security - Never commit these
+.env
+.env.local
+*.key
+*.pem
+secrets/
+credentials/
+
+# Deployment scripts
+deploy.sh
+*.sh
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Documentation (development only)
+WORKFLOW.md
+TODO.md
+NOTES.md
+
+# Build artifacts
+dist/
+.astro/
