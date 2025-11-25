@@ -40,10 +40,12 @@ deploy.sh
 Thumbs.db
 .vscode/settings.json
 
-# Documentation (development only)
+# Documentation (development only - LOCAL ONLY)
 WORKFLOW.md
 TODO.md
 NOTES.md
+CONTEXT.md
+docs/
 
 # Build artifacts
 dist/
